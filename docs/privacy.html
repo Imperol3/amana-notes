@@ -10,44 +10,58 @@
 <main>
   <p class="eyebrow"><a href="./">AMANA NOTES</a> · PRIVACY</p>
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective 23 September 2026</p>
+  <p class="meta">Effective 4 October 2026</p>
 
-  <p class="lead">Amana Notes records your voice and turns it into text <strong>on your phone</strong>. Your recordings and transcripts never leave your device unless you choose to share them.</p>
+  <p class="lead">Amana Notes listens, transcribes, answers and finds your to-dos <strong>on your phone</strong>. Your recordings, transcripts and notes never leave your device unless you choose to share or back them up.</p>
 
   <h2>What the app stores</h2>
   <ul>
-    <li><strong>Audio recordings</strong> you make by pressing REC.</li>
-    <li><strong>Transcripts</strong> of those recordings, and any edits you make to them.</li>
+    <li><strong>Audio</strong> of the recordings you make, and of the conversations Ears saves when you turn it on (compressed, on the phone).</li>
+    <li><strong>Transcripts</strong> of that audio, and any edits you make to them.</li>
+    <li><strong>To-dos and reminders</strong> Amana finds in your notes.</li>
+    <li><strong>Your name</strong>, if you sign in (see below).</li>
     <li><strong>Settings</strong>, such as your chosen language and transcription mode.</li>
-    <li><strong>Speech-recognition models</strong> you choose to download.</li>
+    <li><strong>Models</strong> for speech, Amana's voice and Amana's brain that you download.</li>
   </ul>
   <p>All of this is kept in the app's private storage on your phone. Other apps can't read it, and it isn't included in Android's automatic cloud backup.</p>
 
   <h2>What we collect</h2>
-  <p><strong>Nothing.</strong> Amana Notes has no accounts, no analytics, no advertising, no crash reporting and no tracking. We don't run a server that receives your data, and we have no way to see your recordings or transcripts.</p>
+  <p><strong>Nothing.</strong> Amana Notes has no online accounts, no analytics, no advertising, no crash reporting and no tracking. We don't run a server that receives your data, and we have no way to see your recordings, transcripts or notes.</p>
+
+  <h2>Your name</h2>
+  <p>Signing in stores only the name you type, on your phone, so Amana can greet you. It isn't an online account and is never sent anywhere. You can sign out in Settings; your notes stay.</p>
+
+  <h2>Ears</h2>
+  <p>When you turn Ears on, the app listens continuously and saves what it hears as notes on your phone, <strong>including other people's voices</strong>, until you turn it off. Android shows its microphone indicator and the app shows a notification the whole time. Saying "Amana, forget that" or tapping Forget drops the latest conversation.</p>
+  <p>Recording people can require their consent depending on where you are. Please tell the people around you when Ears is on, and turn it off where recording isn't appropriate.</p>
+
+  <h2>Amana's brain</h2>
+  <p>Answers, catch-ups, the to-dos Amana finds and whether one is done are worked out by an AI model that runs on your phone (Qwen 3 1.7B), and Amana's voice is generated on the phone too. Your notes are never sent to an online AI service. Like any AI, it can make mistakes; your recordings are always there to check.</p>
 
   <h2>When the app uses the internet</h2>
-  <p>Transcription works fully offline. The app connects to the internet only to:</p>
+  <p>Recording, transcription, answers and reminders all work offline. The app connects to the internet only to:</p>
   <ul>
-    <li><strong>Download speech models</strong> when you choose one. These files come from the open-source <a href="https://github.com/k2-fsa/sherpa-onnx">sherpa-onnx</a> project on GitHub.</li>
+    <li><strong>Download models</strong> when you set the app up or choose one: speech, voice and speaker models from the open-source <a href="https://github.com/k2-fsa/sherpa-onnx">sherpa-onnx</a> project on GitHub, and the brain model from <a href="https://huggingface.co/">Hugging Face</a>. The large, optional accurate speech model downloads by itself, but only on Wi-Fi while the phone is charging.</li>
     <li><strong>Check for updates</strong>, at most once a day, and download a new version when you tap Update. Updates come from the <a href="https://github.com/Imperol3/amana-notes">Amana Notes releases</a> on GitHub.</li>
   </ul>
-  <p>These requests are ordinary file downloads. They contain no recordings, transcripts or personal information. Like any website, GitHub receives your IP address and basic device information when you download from it; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+  <p>These requests are ordinary file downloads. They contain no recordings, transcripts, names or other personal information. Like any website, GitHub and Hugging Face receive your IP address and basic device information when you download from them; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a> and <a href="https://huggingface.co/privacy">Hugging Face's privacy policy</a>.</p>
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Microphone:</strong> to record after you press REC, until you stop. The app never listens at any other time.</li>
-    <li><strong>Notifications:</strong> to show that a recording is in progress.</li>
-    <li><strong>Internet:</strong> for the model downloads and update checks above.</li>
+    <li><strong>Microphone:</strong> to listen while you record, while you ask Amana something, and the whole time Ears is on. Never otherwise.</li>
+    <li><strong>Notifications:</strong> to show when the app is recording or listening, and to remind you of a to-do at the time you said.</li>
+    <li><strong>Alarms &amp; reminders:</strong> so those reminders arrive on time rather than up to an hour late.</li>
+    <li><strong>Internet:</strong> for the downloads and update checks above.</li>
+    <li><strong>Network state:</strong> to check for Wi-Fi, so the large optional speech model only downloads on Wi-Fi.</li>
     <li><strong>Install apps:</strong> to hand a downloaded update to Android's installer. Android asks you to confirm every install.</li>
-    <li><strong>Foreground service, wake lock, audio settings and vibration:</strong> to keep long recordings running with the screen off, to set up the microphone for recording, and for button feedback.</li>
+    <li><strong>Foreground service, wake lock, audio settings and vibration:</strong> to keep long recordings and Ears running with the screen off, to set up the microphone, and for button feedback.</li>
   </ul>
 
   <h2>Sharing and backups</h2>
-  <p>Text or audio leaves the app only when you copy or share it yourself; after that, the app you share it with handles it under its own policy. <em>Import backup</em> reads only the folder you pick.</p>
+  <p>Text or audio leaves the app only when you copy or share it yourself, or back up your notes to a folder you choose; after that, the app or place you sent it to handles it under its own policy. <em>Import backup</em> reads only the folder you pick.</p>
 
   <h2>Deleting your data</h2>
-  <p>Deleting a note removes its audio and transcript from your phone. Uninstalling the app deletes everything it stored, including downloaded models.</p>
+  <p>Deleting a note removes its audio, transcript, to-dos and reminders from your phone. Uninstalling the app deletes everything it stored, including your name and downloaded models.</p>
 
   <h2>Children</h2>
   <p>Amana Notes collects no personal information from anyone, including children.</p>
